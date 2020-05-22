@@ -21,8 +21,8 @@ class ViewController: UIViewController {
     @IBOutlet var blueSlider: UISlider!
     
     
-    private func colorViewUpdate(red: Float, green: Float, blue: Float) {
-        colorView.backgroundColor = UIColor(red: CGFloat(red), green: CGFloat(green), blue: CGFloat(blue), alpha: 1)
+    private func viewColorUpdate(view: UIView, red: Float, green: Float, blue: Float) {
+        view.backgroundColor = UIColor(red: CGFloat(red), green: CGFloat(green), blue: CGFloat(blue), alpha: 1)
     }
     
     override func viewDidLoad() {
@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         
         // colorView
         colorView.layer.cornerRadius = 10
-        colorViewUpdate(red: redSlider.value, green: greenSlider.value, blue: blueSlider.value)
+        viewColorUpdate(view: colorView, red: redSlider.value, green: greenSlider.value, blue: blueSlider.value)
 
         redSlider.minimumTrackTintColor = .red
         greenSlider.minimumTrackTintColor = .green
@@ -50,17 +50,17 @@ class ViewController: UIViewController {
    
     @IBAction func redSliderMove() {
         redValueLabel.text = String((redSlider.value * 100).rounded() / 100)
-        colorViewUpdate(red: redSlider.value, green: greenSlider.value, blue: blueSlider.value)
+        viewColorUpdate(view: colorView, red: redSlider.value, green: greenSlider.value, blue: blueSlider.value)
     }
     
     @IBAction func greenSliderMove() {
         greenValueLabel.text = String((greenSlider.value * 100).rounded() / 100)
-        colorViewUpdate(red: redSlider.value, green: greenSlider.value, blue: blueSlider.value)
+        viewColorUpdate(view: colorView, red: redSlider.value, green: greenSlider.value, blue: blueSlider.value)
     }
     
     @IBAction func bluesSliderMove() {
         blueValueLabel.text = String((blueSlider.value * 100).rounded() / 100)
-        colorViewUpdate(red: redSlider.value, green: greenSlider.value, blue: blueSlider.value)
+        viewColorUpdate(view: colorView, red: redSlider.value, green: greenSlider.value, blue: blueSlider.value)
     }
     
     
