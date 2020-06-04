@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		692D32942477532300272AA8 /* vitata_HW2.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vitata_HW2.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		692D32942477532300272AA8 /* vitata_HW2.6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vitata_HW2.6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		692D32972477532300272AA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		692D32992477532300272AA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		692D329B2477532300272AA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		692D328B2477532300272AA8 = {
 			isa = PBXGroup;
 			children = (
-				692D32962477532300272AA8 /* vitata_HW2.2 */,
+				692D32962477532300272AA8 /* vitata_HW2.6 */,
 				692D32952477532300272AA8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		692D32952477532300272AA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				692D32942477532300272AA8 /* vitata_HW2.2.app */,
+				692D32942477532300272AA8 /* vitata_HW2.6.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		692D32962477532300272AA8 /* vitata_HW2.2 */ = {
+		692D32962477532300272AA8 /* vitata_HW2.6 */ = {
 			isa = PBXGroup;
 			children = (
 				692D32972477532300272AA8 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				692D32A22477533000272AA8 /* LaunchScreen.storyboard */,
 				692D32A52477533000272AA8 /* Info.plist */,
 			);
-			path = vitata_HW2.2;
+			path = vitata_HW2.6;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		692D32932477532300272AA8 /* vitata_HW2.2 */ = {
+		692D32932477532300272AA8 /* vitata_HW2.6 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 692D32A82477533000272AA8 /* Build configuration list for PBXNativeTarget "vitata_HW2.2" */;
+			buildConfigurationList = 692D32A82477533000272AA8 /* Build configuration list for PBXNativeTarget "vitata_HW2.6" */;
 			buildPhases = (
 				692D32902477532300272AA8 /* Sources */,
 				692D32912477532300272AA8 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = vitata_HW2.2;
+			name = vitata_HW2.6;
 			productName = vitata_HW2.2;
-			productReference = 692D32942477532300272AA8 /* vitata_HW2.2.app */;
+			productReference = 692D32942477532300272AA8 /* vitata_HW2.6.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 692D328F2477532300272AA8 /* Build configuration list for PBXProject "vitata_HW2.2" */;
+			buildConfigurationList = 692D328F2477532300272AA8 /* Build configuration list for PBXProject "vitata_HW2.6" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				692D32932477532300272AA8 /* vitata_HW2.2 */,
+				692D32932477532300272AA8 /* vitata_HW2.6 */,
 			);
 		};
 /* End PBXProject section */
@@ -286,14 +286,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8U5V38UREF;
-				INFOPLIST_FILE = vitata_HW2.2/Info.plist;
+				INFOPLIST_FILE = vitata_HW2.6/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "apnet.vitata-HW2-2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "apnet.vitata-HW2-6";
+				PRODUCT_NAME = vitata_HW2.6;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -305,14 +305,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8U5V38UREF;
-				INFOPLIST_FILE = vitata_HW2.2/Info.plist;
+				INFOPLIST_FILE = vitata_HW2.6/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "apnet.vitata-HW2-2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "apnet.vitata-HW2-6";
+				PRODUCT_NAME = vitata_HW2.6;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -321,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		692D328F2477532300272AA8 /* Build configuration list for PBXProject "vitata_HW2.2" */ = {
+		692D328F2477532300272AA8 /* Build configuration list for PBXProject "vitata_HW2.6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				692D32A62477533000272AA8 /* Debug */,
@@ -330,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		692D32A82477533000272AA8 /* Build configuration list for PBXNativeTarget "vitata_HW2.2" */ = {
+		692D32A82477533000272AA8 /* Build configuration list for PBXNativeTarget "vitata_HW2.6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				692D32A92477533000272AA8 /* Debug */,
